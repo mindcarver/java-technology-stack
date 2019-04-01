@@ -939,6 +939,7 @@ public class DispatcherServlet extends FrameworkServlet {
 		}
 
 		try {
+			// 核心逻辑
 			doDispatch(request, response);
 		}
 		finally {
@@ -985,12 +986,12 @@ public class DispatcherServlet extends FrameworkServlet {
 	}
 
 	/**
-	 * Process the actual dispatching to the handler.
-	 * <p>The handler will be obtained by applying the servlet's HandlerMappings in order.
-	 * The HandlerAdapter will be obtained by querying the servlet's installed HandlerAdapters
-	 * to find the first that supports the handler class.
-	 * <p>All HTTP methods are handled by this method. It's up to HandlerAdapters or handlers
-	 * themselves to decide which methods are acceptable.
+	 * 处理实际调度到处理程序。
+	 * <p>将通过按顺序应用servlet的HandlerMappings来获取处理程序。
+	 * *将通过查询servlet安装的HandlerAdapter获取HandlerAdapter
+	 * *找到第一个支持处理程序类。
+	 * <p>此方法处理所有HTTP方法。 这取决于HandlerAdapters或处理程序
+	 * *他们自己决定哪些方法是可以接受的。
 	 * @param request current HTTP request
 	 * @param response current HTTP response
 	 * @throws Exception in case of any kind of processing failure
@@ -1007,20 +1008,26 @@ public class DispatcherServlet extends FrameworkServlet {
 			Exception dispatchException = null;
 
 			try {
+				// 1. 检查是否是文件上传的请求
 				processedRequest = checkMultipart(request);
 				multipartRequestParsed = (processedRequest != request);
 
-				// Determine handler for the current request.
+				// 2.取得处理当前请求的 Controller,这里也称为 hanlder,处理器,
+				// 第一个步骤的意义就在这里体现了.这里并不是直接返回 Controller,
+				// 而是返回的 HandlerExecutionChain 请求处理器链对象,
+				// 该对象封装了 handler 和 interceptors.
+				// 关键
 				mappedHandler = getHandler(processedRequest);
+				// 如果 handler 为空,则返回 404
 				if (mappedHandler == null) {
 					noHandlerFound(processedRequest, response);
 					return;
 				}
 
-				// Determine handler adapter for the current request.
+				//3. 获取处理 request 的处理器适配器 handler adapter
 				HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());
 
-				// Process last-modified header, if supported by the handler.
+				// 处理 last-modified 请求头
 				String method = request.getMethod();
 				boolean isGet = "GET".equals(method);
 				if (isGet || "HEAD".equals(method)) {
@@ -1034,13 +1041,13 @@ public class DispatcherServlet extends FrameworkServlet {
 					return;
 				}
 
-				// Actually invoke the handler.
+				// 4.实际的处理器处理请求,返回结果视图对象
 				mv = ha.handle(processedRequest, response, mappedHandler.getHandler());
 
 				if (asyncManager.isConcurrentHandlingStarted()) {
 					return;
 				}
-
+				// 结果视图对象的处理
 				applyDefaultViewName(processedRequest, mv);
 				mappedHandler.applyPostHandle(processedRequest, response, mv);
 			}
@@ -1065,6 +1072,7 @@ public class DispatcherServlet extends FrameworkServlet {
 			if (asyncManager.isConcurrentHandlingStarted()) {
 				// Instead of postHandle and afterCompletion
 				if (mappedHandler != null) {
+					// 请求成功响应之后的方法
 					mappedHandler.applyAfterConcurrentHandlingStarted(processedRequest, response);
 				}
 			}

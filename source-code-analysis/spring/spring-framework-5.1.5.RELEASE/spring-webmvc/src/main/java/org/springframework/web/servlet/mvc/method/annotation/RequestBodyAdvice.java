@@ -31,7 +31,7 @@ import org.springframework.lang.Nullable;
  * {@code HttpEntity} method argument.
  *
  * <p>Implementations of this contract may be registered directly with the
- * {@code RequestMappingHandlerAdapter} or more likely annotated with
+ * {@code } or more likely annotated with
  * {@code @ControllerAdvice} in which case they are auto-detected.
  *
  * @author Rossen Stoyanchev
