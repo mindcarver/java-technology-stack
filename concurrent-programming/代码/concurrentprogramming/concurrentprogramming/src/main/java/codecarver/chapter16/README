@@ -1,0 +1,7 @@
+指令重排序
+happens-before relationship
+1.代码的执行顺序 编写在前面的发生在编写在后面的（单线程）
+2.unlock必须发生在lock之后
+3.volitale修饰的变量
+
+
