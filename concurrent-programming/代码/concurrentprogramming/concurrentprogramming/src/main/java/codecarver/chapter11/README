@@ -1,4 +1,0 @@
-ThreadGroup
-JDK 关于threadGroup的描述不是很准确
-子线程在不能访问父线程组的一些信息，是由问题的，可以访问
-activecount  获取活跃线程  不一定很准确
