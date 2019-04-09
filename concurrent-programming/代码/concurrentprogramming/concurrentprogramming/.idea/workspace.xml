@@ -1,263 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="323b4d4c-8033-499f-ad9b-e23e90d0ad93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent-programming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c5/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c6/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c6/ThreadGroupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c7/Daemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c7/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ThreadLocalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/LockSupportDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case2/LockSupportIntDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/countDownLactch/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/semap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter3/CountReportTaskByFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter3/RejectionDemo/MyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter3/threadPool/SingleThreadExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/linkedBlockingQueue/LinkedBlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/priorityBlockingQueue/PriorityBlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/synchronousQueue/SynchronousQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/forkjoin/CountTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerFieldUpdaterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter5/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/First.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/base/interrupt/InterruptDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/base/interrupt/InterruptDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/base/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/MyRunable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c1/MyRunable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/Mythread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c1/Mythread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter10/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter10/ThreadException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter11/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter12/Demo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter12/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter12/SimpleThreadPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter13/Wait.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter13/WaitSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter13/WaitSet详细介绍" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter14/READEME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter14/VolatileDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter14/VolatileTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter16/FairLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter16/IntLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter16/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter16/ReenterLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter16/TimeLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter16/TryLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter17/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/countDownLactch/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter17/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/cyclicBarrier/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter17/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter18/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter3/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter18/scheduledThreadPoolExecutor/ScheduledThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter3/scheduledThreadPoolExecutor/ScheduledThreadPoolExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter18/threadPool/FixedThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter3/threadPool/FixedThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter18/threadPool/SingleThreadExecutorDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter19/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter19/concurrentHashMap/HashMapExcuteInConccrrencyEnvironment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter19/concurrentHashMap/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/blockingQueue/linkedBlockingQueue/LinkedBlockingQueueDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/concurrentHashMap/ConcurrentHashMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter20/concurrentLinkedQueue/ConcurrentLinkedQueueDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter21/ParseDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ParseDateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter21/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/case1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/case1/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/case2/SimpleWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/case2/SimpleWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/case3/JoinClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/case3/JoinClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/case3/JoinClient2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/case3/JoinClient2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/case4/YiledDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/case4/YiledDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/case5/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/case5/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter4/case5/ThreadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/case5/ThreadDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter5/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter5/ReeterLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case1/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case1/SynchronizedRunableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case1/SynchronizedRunableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case2/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case2/SynchronizedInstanceMethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case2/SynchronizedInstanceMethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case3/SynchronizedThisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case3/SynchronizedThisLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case4/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case4/SynchronizedStaticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case4/SynchronizedStaticDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case5/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case5/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case5/SynchronizedObjectLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case5/SynchronizedObjectLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case6/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case6/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case6/ThreeLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case6/ThreeLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case7/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case7/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case7/SynchronizedStaticInstanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case7/SynchronizedStaticInstanceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case8/AddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case8/AddTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case8/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case8/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case8/MyThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case8/MyThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case8/MyThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case8/MyThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case8/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case8/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case9/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case9/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter6/case9/UnsafeThreadCallDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case9/UnsafeThreadCallDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter7/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter8/classp/CaptureService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter8/classp/ProduceConsumerVersion3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter8/classp/Version1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter8/classp/Version2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter8/classp/Version3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter8/classp/Version4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter9/BooleanLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter9/Lock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter9/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter9/SynchronizedProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter2/bankcall/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter2/bankcall/case1/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter2/bankcall/case1/TicketWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter2/bankcall/case2/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter2/bankcall/case2/TicketWindowRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style1/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style1/StopThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style1/StopThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style2/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style2/StopThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style2/StopThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style3/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style3/StopThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style3/StopThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style4/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style4/ThreadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style4/ThreadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style5/Mythread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style5/Mythread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/charpter3/style6/Mythread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/style6/Mythread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/readwritelock/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/readWriteLock/ReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/reentrantlock/case1/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case1/DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/reentrantlock/case1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/reentrantlock/case2/ReentrantLockSolveDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case2/ReentrantLockSolveDeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/reentrantlock/case3/TimeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case3/TimeLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/reentrantlock/case3/TryLockSolveDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case3/TryLockSolveDeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/reentrantlock/case4/FairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case4/FairLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/reentrantlock/case5/ReenterLockCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case5/ReenterLockCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/semap/SemapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/semap/SemapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testSynchronized.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/First$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/First$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter1/MyRunable$MyThread2Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter1/MyRunable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter1/Mythread$MyTheadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter1/Mythread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter14/VolatileTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter14/VolatileTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter16/FairLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter16/IntLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter16/ReenterLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter16/TimeLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter16/TryLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter17/CountDownLatchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter17/CyclicBarrierDemo$Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter17/CyclicBarrierDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter17/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter20/concurrentHashMap/ConcurrentHashMapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter20/concurrentLinkedQueue/ConcurrentLinkedQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case1/Client$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case1/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case2/SimpleWait$T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case2/SimpleWait$T2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case2/SimpleWait.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case3/JoinClient$AddThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case3/JoinClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case3/JoinClient2$AddThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case3/JoinClient2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case4/YiledDemo$MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case4/YiledDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case5/ThreadDemo$Mythread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case5/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case5/ThreadDemo2$Mythread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter4/case5/ThreadDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter5/ReeterLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case1/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case1/SynchronizedRunableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case2/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case2/SynchronizedInstanceMethodDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case3/SynchronizedThisLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case3/SynchronizedThisLock$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case3/SynchronizedThisLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case3/ThisLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case4/Client$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case4/Client$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case4/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case4/SynchronizedStaticDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case5/Client$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case5/Client$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case5/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case5/SynchronizedObjectLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case6/Client$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case6/Client$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case6/Client$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case6/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case6/ThreeLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case7/Client$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case7/Client$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case7/Client$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case7/Client$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case7/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case7/SynchronizedStaticInstanceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case8/AddTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case8/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case8/MyThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case8/MyThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case9/UnsafeThreadCallDemo$Mythread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter6/case9/UnsafeThreadCallDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/ProduceConsumerVersion3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/ProduceConsumerVersion3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/ProduceConsumerVersion3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/ProduceConsumerVersion3$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version3$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecarver/chapter8/classp/Version4$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter2/bankcall/case1/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter2/bankcall/case1/TicketWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter2/bankcall/case2/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter2/bankcall/case2/TicketWindowRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style1/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style1/StopThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style2/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style2/StopThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style3/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style3/StopThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style4/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style4/ThreadService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style4/ThreadService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style5/Mythread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/charpter3/style6/Mythread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/readwritelock/ReadWriteLockDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/readwritelock/ReadWriteLockDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/readwritelock/ReadWriteLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case1/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case1/DeadLockThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case1/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case2/DeadLockThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case2/ReentrantLockSolveDeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case3/TimeLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case3/TryLockSolveDeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case4/FairLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/reentrantlock/case5/ReenterLockCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codecarver/jdkConcurrentPackage/semap/SemapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../线程基础知识/并发编程的基本概念-1.md" beforeDir="false" />
-    </list>
+    <list default="true" id="323b4d4c-8033-499f-ad9b-e23e90d0ad93" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -393,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="22" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
@@ -464,7 +208,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554702879062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554719159316" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -586,15 +330,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554089436456</updated>
-      <workItem from="1554089437797" duration="25451000" />
+      <workItem from="1554089437797" duration="25456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25451000" />
+    <option name="totallyTimeSpent" value="25456000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1400" height="761" extended-state="1" />
+    <frame x="22" y="23" width="1400" height="761" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -612,7 +356,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
