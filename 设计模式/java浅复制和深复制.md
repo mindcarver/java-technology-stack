@@ -1,0 +1,529 @@
+# java深克隆和浅克隆
+
+## 基本概念
+
+1. **`浅复制(浅克隆)`**
+
+>被复制对象的所有变量都含有与原来的对象相同的值，而所有的对其他对象的引用仍然指向原来的对象。换言之，浅复制仅仅复制所拷贝的对象，而不复制它所引用的对象。
+
+1. **`深复制(深克隆)`**
+
+   > 被复制对象的所有变量都含有与原来的对象相同的值，除去那些引用其他对象的变量。那些引用其他对象的变量将指向被复制过的新对象，而不再是原有的那些被引用的对象。换言之，深复制把要复制的对象所引用的对象都复制了一遍。
+
+实现java深复制和浅复制的最关键的就是`要实现Cloneable接口中的clone()方法`。
+
+---
+
+
+
+## 如何使用clone()方法
+
+首先我们来看一下Cloneable接口：
+
+> 官方解释：
+>
+> 1：实现此接口则可以使用java.lang.Object 的clone()方法，否则会抛出CloneNotSupportedException 异常
+>
+> 2：实现此接口的类应该使用公共方法覆盖clone方法
+>
+> 3：此接口并不包含clone 方法，所以实现此接口并不能克隆对象，这只是一个前提，还需覆盖上面所讲的clone方法。
+
+```java
+public interface Cloneable {
+}
+```
+
+看看Object里面的Clone()方法：
+
+> 1. clone()方法返回的是Object类型，所以必须强制转换得到克隆后的类型
+> 2. clone()方法是一个native方法，而native的效率远远高于非native方法，
+> 3. 可以发现clone方法被一个Protected修饰，所以可以知道必须继承Object类才能使用，而Object类是所有类的基类，也就是说所有的类都可以使用clone方法
+
+```java
+protected native Object clone() throws CloneNotSupportedException;
+```
+
+小试牛刀：
+
+```java
+public class Person {
+    public void testClone(){
+        super.clone(); // 报错了
+    }
+}
+```
+
+事实却是clone()方法报错了，那么肯定奇怪了，既然Object是一切类的基类，并且clone的方法是Protected的，那应该是可以通过super.clone()方法去调用的，然而事实却是`会抛出CloneNotSupportedException异常`, `官方解释`如下：
+
+> 1. 对象的类不支持Cloneable接口
+> 2. 覆盖方法的子类也可以抛出此异常表示无法克隆实例。
+
+所以我们更改代码如下：
+
+```java
+public class Person implements Cloneable{
+    public void testClone(){
+        try {
+            super.clone();
+            System.out.println("克隆成功");
+        } catch (CloneNotSupportedException e) {
+            System.out.println("克隆失败");
+            e.printStackTrace();
+        }
+    }
+    public static void main(String[] args) {
+        Person p = new Person();
+        p.testClone();
+    }
+}
+```
+
+要注意，必须将克隆方法写在try-catch块中，因为clone方法会把异常抛出，当然程序也要求我们try-catch。
+
+---
+
+
+## java.lang.object规范中对clone方法的约定
+
+1. **`对任何的对象x，都有x.clone() !=x  因为克隆对象与原对象不是同一个对象`**
+2. **`对任何的对象x，都有x.clone().getClass()= =x.getClass()//克隆对象与原对象的类型一样`**
+3. **`如果对象x的equals()方法定义恰当，那么x.clone().equals(x)应该成立`**
+
+对于以上三点要注意，这3项约定并没有强制执行，所以如果用户不遵循此约定，那么将会构造出不正确的克隆对象，所以根据effective java的建议：
+
+> 谨慎的使用clone方法，或者尽量避免使用。
+
+
+
+---
+
+
+
+## 浅复制实例 
+
+1. **`对象中全部是基本类型`**
+
+```java
+public class Teacher implements Cloneable{
+    private String name;
+    private int age;
+
+    public Teacher(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+    // 覆盖
+    @Override
+    public Object clone() {
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
+// 客户端测试
+public class test {
+    Teacher origin = new Teacher("tony", 11);
+    System.out.println(origin.getName());
+    Teacher clone = (Teacher) origin.clone();
+    clone.setName("clone");
+    System.out.println(origin.getName());
+    System.out.println(clone.getName());
+}
+```
+
+结果：
+
+> tony
+> tony
+> clone
+
+![1545111039834](http://piw7yv6sx.bkt.clouddn.com/toskye/designPattern/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F1.png)
+
+**从运行结果和图上可以知道，克隆后的值变量会开辟新的内存地址，克隆对象修改值不会影响原来对象。**
+
+2. **`对象中含有引用类型`**
+
+```java
+public class Teacher implements Cloneable{
+    private String name;
+    private int age;
+    private Student student;
+
+    public Teacher(String name, int age, Student student){
+        this.name = name;
+        this.age = age;
+        this.student = student;
+    }
+    // 覆盖
+    @Override
+    public Object clone() {
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+}
+
+// 学生类
+public class Student {
+    private String name;
+    private int age;
+    public Student(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+     public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
+// 客户端测试
+public class test {
+    public static void main(String[] args) {
+        Student student = new Student("学生1" ,11);
+        Teacher origin = new Teacher("老师", 11, student);;
+        Teacher clone = (Teacher) origin.clone();
+        System.out.println("比较克隆后的引用对象");
+        System.out.println(origin.getStudent().getClass() == clone.getStudent().getClass());
+        Student student2 = new Student("学生2", 12);
+        clone.setStudent(student2);
+        System.out.println("克隆后，比较克隆对象改变引用");
+        System.out.println(origin.getStudent().getClass() == clone.getStudent().getClass());
+    }
+}
+
+```
+
+**运行结果：**
+
+> 比较克隆后的引用对象
+> true
+> 克隆后，比较克隆对象改变引用
+> true
+
+
+
+![1545109406152](http://piw7yv6sx.bkt.clouddn.com/toskye/designPattern/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F2.png)
+
+**如图可知，引用类型只会存在一份内存地址，执行object的clone方法拷贝的也是引用的复制（这部分的内存空间不一样，）但是引用指向的内存空间是一样的，原对象修改引用变量或者浅拷贝对象修改引用变量都会引起双方的变化**
+
+**`重点：综上两个方面可以知道，Object的clone方法是属于浅拷贝，基本变量类型会复制相同值，而引用变量类型也是会复制相同的引用。`**
+
+-----
+
+## 深复制实例
+
+从上面的浅拷贝可以知道，对于引用的变量只会拷贝引用指向的地址，也就是指向同一个内存地址，但是很多情况下我们需要的是下面图的效果：
+
+
+
+![1545121868853](http://piw7yv6sx.bkt.clouddn.com/toskye/designPattern/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F3.png)
+
+**深拷贝实现的是对所有`可变(没有被final修饰的引用变量)`引用类型的成员变量都开辟内存空间所以一般深拷贝对于浅拷贝来说是比较耗费时间和内存开销的。**
+
+**深拷贝的两种方式：**
+
+1. **`重写clone方法实现深拷贝`**
+
+**学生类：**
+
+```java
+public class Student implements Cloneable {
+    private String name;
+    private int age;
+    public Student(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    protected Object clone()  {
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
+
+```
+
+**老师类：**
+
+```java
+public class Teacher implements Cloneable{
+    private String name;
+    private int age;
+    private Student student;
+
+    public Teacher(String name, int age, Student student){
+        this.name = name;
+        this.age = age;
+        this.student = student;
+    }
+    // 覆盖
+    @Override
+    public Object clone() {
+        Teacher t = null;
+        try {
+            t = (Teacher) super.clone();
+            t.student = (Student)student.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return t;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+}
+```
+
+**测试端：**
+
+```java
+public class test {
+    public static void main(String[] args) {
+        Student s = new Student("学生1", 11);
+        Teacher origin = new Teacher("老师原对象", 23, s);
+        System.out.println("克隆前的学生姓名：" + origin.getStudent().getName());
+        Teacher clone = (Teacher) origin.clone();
+        // 更改克隆后的学生信息 更改了姓名
+        clone.getStudent().setName("我是克隆对象更改后的学生2");
+        System.out.println("克隆后的学生姓名：" + clone.getStudent().getName());
+    }
+}
+```
+
+**运行结果：**
+
+> 克隆前的学生姓名：学生1
+> 克隆后的学生姓名：我是克隆对象更改后的学生2
+
+
+
+2. **`序列化实现深克隆`**
+
+**我们发现上面通过object的clone方法去实现深克隆十分麻烦**， 因此引出了另外一种方式：**`序列化实现深克隆`**。
+
+**概念：**
+
+- **序列化**：把对象写到流里
+- **反序列化**：把对象从流中读出来
+
+**在Java语言里深复制一个对象，常常可以先使对象实现Serializable接口，然后把对象（实际上只是对象的一个拷贝）写到一个流里，再从流里读出来，便可以重建对象。**
+
+**注意：**
+
+- `写在流里的是对象的一个拷贝，而原对象仍然存在于JVM里面`。
+- `对象以及对象内部所有引用到的对象都是可序列化的`
+- `如果不想序列化，则需要使用transient来修饰`
+
+**案例：**
+
+**Teacher:**
+
+```java
+public class Teacher implements Serializable{
+    private String name;
+    private int age;
+    private Student student;
+
+    public Teacher(String name, int age, Student student){
+        this.name = name;
+        this.age = age;
+        this.student = student;
+    }
+    // 深克隆
+    public Object deepClone() throws IOException, ClassNotFoundException {
+        // 序列化
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        ObjectOutputStream oos = new ObjectOutputStream(bos);
+        oos.writeObject(this);
+        // 反序列化
+        ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
+        ObjectInputStream ois = new ObjectInputStream(bis);
+        return ois.readObject();
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+```
+
+**Student:**
+
+```java
+public class Student implements Serializable {
+    private String name;
+    private int age;
+    public Student(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
+```
+
+**client：**
+
+```java
+public class test {
+    public static void main(String[] args) {
+        try {
+            Student s = new Student("学生1", 11);
+            Teacher origin = new Teacher("老师原对象", 23, s);
+            System.out.println("克隆前的学生姓名：" + origin.getStudent().getName());
+            Teacher clone = (Teacher) origin.deepClone();
+            // 更改克隆后的d学生信息 更改了姓名
+            clone.getStudent().setName("我是克隆对象更改后的学生2");
+            System.out.println("克隆后的学生姓名：" + clone.getStudent().getName());
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+当然这些工作都有现成的轮子了，借助于Apache Commons可以直接实现：
+
+- 浅克隆：BeanUtils.cloneBean(Object obj);
+- 深克隆：SerializationUtils.clone(T object);
+
+---
+
+## 最后探讨
+
+- **在java中为什么实现了Cloneable接口，就可以调用Object中的Clone方法**
+
+  参考以下回答：
+
+> https://www.zhihu.com/question/52490586
+
+----
+
