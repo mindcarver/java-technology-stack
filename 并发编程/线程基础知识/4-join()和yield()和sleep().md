@@ -42,7 +42,7 @@ public class JoinClient {
 
 我们发现打印结果是1000，如果你不加join的话，main线程（当前线程）就不会被阻塞，可能直接就打印出0出来了。
 
-**测试*join(long millis)*方法:**
+**测试join(long millis)方法:**
 
 ```java
 public class JoinClient2 {
@@ -144,7 +144,7 @@ public static native void yield();
 ```
 
 - Yield也是一个静态方法和Native。
-- Yield告诉当前正在执行的线程为**线程池中**具有相同优先级的线程提供机会。
+- Yield告诉当前正在执行的线程为**线程池中**具有**相同优先级的线程**提供机会。
 - 每当一个线程调用java.lang.Thread.yield方法时，它就会向线程调度程序提示它已准备好暂停其执行。线程调度程序可以忽略此提示。
 - 它只能使一个线程从Running State转为Runnable State，而不是处于wait或blocked状态。
 - 如果任何线程执行yield方法，则线程调度程序检查是否存在与此线程具有相同或高优先级的线程。如果处理器找到任何具有更高或相同优先级的线程，则它将当前线程移动到Ready / Runnable状态并将处理器提供给其他线程，如果不是 ,当前线程将继续执行。
@@ -235,7 +235,7 @@ public class ThreadDemo {
 
 我们在等待3秒之后，线程会输出："i的值是10"。
 
-PS:如果*Thread.sleep()*方法因为中断而抛出异常，那么此时它会清除当前线程的中断标记，如果不做处理，那么将无法捕获这个中断（也就是说isInterrupted返回的是false），验证如下：
+PS:如果`Thread.sleep()`方法因为中断而抛出异常，那么此时它会清除当前线程的中断标记，如果不做处理，那么将无法捕获这个中断（也就是说isInterrupted返回的是false），验证如下：
 
 ```java
 public class ThreadDemo2 {
