@@ -53,7 +53,7 @@ public class Main {
 
 在主流的商用程序语言中(Java和C#)，都是使用可达性分析算法判断对象是否存活的。这个算法的基本思路就是通过一系列名为GC Roots的对象作为起始点，从这些节点开始向下搜索，搜索所走过的路径称为引用链(Reference Chain)，当一个对象到GC Roots没有任何引用链相连时，则证明此对象是不可用的，下图对象object5, object6, object7虽然有互相判断，但它们到GC Roots是不可达的，所以它们将会判定为是可回收对象。
 
-![image-20190419152036668](https://ws3.sinaimg.cn/large/006tNc79ly1g27yxcgms8j30p00dgjum.jpg)
+![image-20190506163909973](https://ws2.sinaimg.cn/large/006tNc79gy1g2roqk45qfj30v20fyq5e.jpg)
 
 一般来说，如下情况的对象可以作为GC Roots：
 
