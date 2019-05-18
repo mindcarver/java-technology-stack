@@ -1884,7 +1884,7 @@ POST /lib/user/2/_update
 
 删除文档：标记为deleted，随着数据量的增加，es会选择合适的时间删除掉
 
-
+![image-20190509085128341](https://ws3.sinaimg.cn/large/006tNc79ly1g2us2mydgdj31l80o4gzj.jpg)
 
 
 
@@ -2003,6 +2003,8 @@ routing值默认是文档的_id的值，也可以手动指定一个值，手动�
 
 3.协调节点对客户端做出响应
 
+![image-20190509090701644](https://ws4.sinaimg.cn/large/006tNc79ly1g2usit5u62j31hi0mwajo.jpg)
+
 
 ### 3.15 写一致性原理和quorum机制
 
@@ -2042,6 +2044,10 @@ es默认会等待一分钟，如果在等待的期间活跃的shard的个数没�
 
 put /index/type/id?timeout=60s
 
+![image-20190509091243908](https://ws2.sinaimg.cn/large/006tNc79ly1g2usoq7kocj30ug0gqwgq.jpg)
+
+![image-20190509091458979](https://ws1.sinaimg.cn/large/006tNc79ly1g2usr2vsk4j317g0jmtcd.jpg)
+
 
 ### 3.16 文档查询内部原理
 
@@ -2052,6 +2058,8 @@ put /index/type/id?timeout=60s
 第三步：处理请求的节点把结果返回给协调节点，协调节点再返回给应用程序
 
 特殊情况：请求的文档还在建立索引的过程中，primary shard上存在，但replica shar上不存在，但是请求被转发到了replica shard上，这时就会提示找不到文档
+
+![image-20190509092443676](https://ws3.sinaimg.cn/large/006tNc79ly1g2ut18a72qj31lk0nqgtx.jpg)
 
 
 ### 3.17 bulk批量操作的json格式解析
@@ -2206,6 +2214,8 @@ deep paging性能问题
 3.消耗cpu coordinate node要把传回来的数据进行排序，这个排序过程很消耗cpu.
 
 鉴于deep paging的性能问题，所以应尽量减少使用。
+
+![image-20190509094145667](https://ws2.sinaimg.cn/large/006tNc79ly1g2utiy1qhyj319o0msajn.jpg)
 
 
 ### 3.21 query string查询及copy_to解析
@@ -2445,7 +2455,7 @@ PUT /lib8
      }
 }
 
-#会报错
+会报错
 
 PUT  /lib8/user/1
 {
@@ -2497,14 +2507,14 @@ PUT /my_index
      } 
   } 
 }
-#使用了模板
+使用了模板
 
 PUT /my_index/my_type/3
 {
   "title_en": "this is my dog"
 
 }
-#没有使用模板
+没有使用模板
 
 PUT /my_index/my_type/5
 {

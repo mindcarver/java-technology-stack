@@ -63,10 +63,10 @@ public class ReadWriteLockDemo {
 
             }
         };
-        for (int i = 0; i < 18; i++) {
+        for (int i = 0; i < 6; i++) {
             new Thread(readRunnable).start();
         }
-        for (int i = 18; i < 20; i++) {
+        for (int i = 6; i < 10; i++) {
             new Thread(writeRunnable).start();
         }
     }

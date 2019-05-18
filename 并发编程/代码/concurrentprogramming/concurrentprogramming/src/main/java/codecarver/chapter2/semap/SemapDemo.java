@@ -12,7 +12,7 @@ public class SemapDemo implements Runnable {
     public void run() {
         try {
             semp.acquire();
-            Thread.sleep(2000);
+            Thread.sleep(1000);
             System.out.println(Thread.currentThread().getId() + ":任务完成");
             semp.release();
         } catch (InterruptedException e) {

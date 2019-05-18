@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="323b4d4c-8033-499f-ad9b-e23e90d0ad93" name="Default Changelist" comment="" />
+    <list default="true" id="540feb29-4c53-4d8b-aaa4-d29c6dc1992c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/1-创建和销毁对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/10-序列化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/2-对于所有对象都通用的方法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/3-类和接口.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/4-泛型.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/5-枚举和注解.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/6-方法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/7-通用程序设计.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/8-异常.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Effective java 笔记/9-并发.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ElasticSearch/ElasticSearch学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ElasticSearch/ElasticSearch学习笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/LockSupportDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/LockSupportDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/readWriteLock/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/readWriteLock/ReadWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/semap/SemapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecarver/chapter2/semap/SemapDemo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,17 +28,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ParseDateDemo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/semap/SemapDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="155">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/README.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/readWriteLock/ReadWriteLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/cyclicBarrier/CyclicBarrierDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-131">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/LockSupportDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1836">
+              <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -31,51 +102,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ThreadLocalDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case2/LockSupportIntDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-996">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#123#424#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case2/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>volatile</find>
-      <find>MyStringTask</find>
-      <find>MyIntegerTask</find>
-      <find>Thread</find>
-      <find>ThreadLocalMa</find>
-      <find>sizeCtl</find>
-      <find>ConcurrentHashMap</find>
-      <find>ConcurrentLinkedQueue</find>
-      <find>succ</find>
-      <find>poll</find>
-      <find>CountReportTaskByFuture</find>
-      <find>LinkedBlockingDeque</find>
-      <find>ketty</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>Runner</replace>
-      <replace>String</replace>
-      <replace>StringRunner</replace>
-      <replace>IntegerRunner</replace>
-      <replace>codecarver</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -83,74 +128,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/style3/StopThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c3/case5/ThreadDemo2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c1/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c2/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4/case4/SynchronizedStaticDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter14/VolatileTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c5/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c5/Priority.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c6/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter5/ThreadGroupDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c7/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c7/Daemon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ThreadLocalDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c6/ThreadGroupDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/ReeterLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/c1/ReeterLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/c1/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/reentrantlock/case3/TryLockSolveDeadLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case3/TryLockSolveDeadLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/jdkConcurrentPackage/semap/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/semap/SemapDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/readWriteLock/ReadWriteLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/countDownLactch/CountDownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/countDownLactch/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/cyclicBarrier/CyclicBarrierDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/LockSupportDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case2/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case2/LockSupportIntDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter3/RejectionDemo/Runner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter19/concurrentHashMap/HashMapExcuteInConccrrencyEnvironment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/linkedBlockingQueue/LinkedBlockingQueueDemo1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/linkedBlockingQueue/LinkedBlockingQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter3/CountReportTaskByFuture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/priorityBlockingQueue/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/priorityBlockingQueue/PriorityBlockingQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/DelayQueue/DelayQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/synchronousQueue/SynchronousQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter4/forkjoin/CountTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter3/RejectionDemo/MyTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter5/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicReferenceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerFieldUpdaterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter6/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ParseDateDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/LockSupportDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
     <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="761" />
+    <option name="width" value="1378" />
+    <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,49 +184,44 @@
               <item name="concurrent-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="concurrentprogramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codecarver" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="concurrent-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="concurrentprogramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codecarver" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+              <item name="blockingQueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent-programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrentprogramming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codecarver" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+              <item name="blockingQueue" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayBlockingQueue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554719159316" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558013528016" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1" />
-      <recent name="$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock" />
-      <recent name="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c1" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="codecarver.chapter1.c8" />
-      <recent name="codecarver.chapter2.cyclicBarrier" />
-      <recent name="codecarver.chapter2" />
-      <recent name="codecarver.chapter1.c6" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/codecarver/chapter4" />
-      <recent name="$PROJECT_DIR$/src/main/java/codecarver/chapter3" />
-      <recent name="$PROJECT_DIR$/src/main/java/codecarver/chapter2/countDownLactch" />
-      <recent name="$PROJECT_DIR$/src/main/java/codecarver/chapter2/c1" />
-      <recent name="$PROJECT_DIR$/src/main/java/codecarver/chapter1/c4" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,13 +235,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtomicIntegerFieldUpdaterTest">
-    <configuration name="AtomicIntegerArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codecarver.chapter5.AtomicIntegerArrayTest" />
+  <component name="RunManager" selected="Application.LockSupportDemo">
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codecarver.chapter2.cyclicBarrier.CyclicBarrierDemo" />
       <module name="concurrent-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codecarver.chapter5.*" />
+          <option name="PATTERN" value="codecarver.chapter2.cyclicBarrier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicIntegerFieldUpdaterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codecarver.chapter5.AtomicIntegerFieldUpdaterTest" />
+    <configuration name="LockSupportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codecarver.chapter2.LockSupport.case1.LockSupportDemo" />
       <module name="concurrent-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codecarver.chapter5.*" />
+          <option name="PATTERN" value="codecarver.chapter2.LockSupport.case1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codecarver.chapter5.AtomicIntegerTest" />
+    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codecarver.chapter2.readWriteLock.ReadWriteLockDemo" />
       <module name="concurrent-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codecarver.chapter5.*" />
+          <option name="PATTERN" value="codecarver.chapter2.readWriteLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,25 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codecarver.chapter5.AtomicReferenceTest" />
+    <configuration name="SemapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codecarver.chapter2.semap.SemapDemo" />
       <module name="concurrent-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codecarver.chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codecarver.chapter4.forkjoin.CountTask" />
-      <module name="concurrent-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codecarver.chapter4.forkjoin.*" />
+          <option name="PATTERN" value="codecarver.chapter2.semap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,11 +290,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AtomicIntegerFieldUpdaterTest" />
-        <item itemvalue="Application.AtomicReferenceTest" />
-        <item itemvalue="Application.AtomicIntegerArrayTest" />
-        <item itemvalue="Application.AtomicIntegerTest" />
-        <item itemvalue="Application.CountTask" />
+        <item itemvalue="Application.LockSupportDemo" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
+        <item itemvalue="Application.ReadWriteLockDemo" />
+        <item itemvalue="Application.SemapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -325,20 +302,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="323b4d4c-8033-499f-ad9b-e23e90d0ad93" name="Default Changelist" comment="" />
-      <created>1554089436456</created>
+      <changelist id="540feb29-4c53-4d8b-aaa4-d29c6dc1992c" name="Default Changelist" comment="" />
+      <created>1557827279676</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1554089436456</updated>
-      <workItem from="1554089437797" duration="25456000" />
+      <updated>1557827279676</updated>
+      <workItem from="1557827281101" duration="4031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25456000" />
+    <option name="totallyTimeSpent" value="4031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1400" height="761" extended-state="0" />
+    <frame x="0" y="23" width="1378" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -346,17 +323,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49665925" visible="true" weight="0.2496318" />
-      <window_info id="Structure" order="1" sideWeight="0.5033408" side_tool="true" weight="0.2496318" />
-      <window_info anchor="bottom" id="Messages" weight="0.32884902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32861635" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32861635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,414 +352,118 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/forkjoin/CountTask.java</url>
-          <line>7</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerArrayTest.java</url>
-          <line>4</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter17/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/First.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ThreadLocalDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter3/scheduledThreadPoolExecutor/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter3/threadPool/FixedThreadPoolDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter3/threadPool/SingleThreadExecutorDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="66">
+          <caret line="297" column="17" selection-start-line="297" selection-start-column="17" selection-end-line="297" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case2/ReentrantLockSolveDeadLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="380" column="32" selection-start-line="380" selection-start-column="32" selection-end-line="380" selection-end-column="32" />
+        <state relative-caret-position="-59">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter3/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/reentrantlock/case3/TimeLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9431">
-          <caret line="794" column="43" selection-start-line="794" selection-start-column="43" selection-end-line="794" selection-end-column="43" />
+        <state relative-caret-position="297">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter20/concurrentHashMap/ConcurrentHashMapDemo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="202">
+          <caret line="1298" column="22" selection-start-line="1298" selection-start-column="22" selection-end-line="1298" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter20/concurrentLinkedQueue/ConcurrentLinkedQueueDemo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="211">
+          <caret line="311" column="31" lean-forward="true" selection-start-line="311" selection-start-column="31" selection-end-line="311" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/semap/SemapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="211" column="53" selection-start-line="211" selection-start-column="53" selection-end-line="211" selection-end-column="53" />
+        <state relative-caret-position="155">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo2.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/readWriteLock/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo4.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/cyclicBarrier/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case2/LockSupportIntDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/LockSupport/case1/LockSupportDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="216">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo3.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="148">
+          <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/arrayBlockingQueue/ArrayBlockingQueueDemo5.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="163" column="61" selection-start-line="135" selection-start-column="4" selection-end-line="163" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/linkedBlockingQueue/LinkedBlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="73" column="11" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#420#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/priorityBlockingQueue/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-          <folding>
-            <element signature="e#6227#6228#0" expanded="true" />
-            <element signature="e#6279#6280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter3/CountReportTaskByFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.DelayQueue">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.DelayQueue</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.AbstractCollection</node>
-            <node x="" y="">java.util.Collection</node>
-            <node x="" y="">java.util.concurrent.DelayQueue</node>
-            <node x="" y="">java.util.AbstractQueue</node>
-            <node x="" y="">java.util.concurrent.BlockingQueue</node>
-            <node x="" y="">java.util.Queue</node>
-            <node x="" y="">java.util.concurrent.Delayed</node>
-            <node x="" y="">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="212.0" y="175.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/DelayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="115" column="5" selection-start-line="113" selection-start-column="4" selection-end-line="115" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/DelayQueue/DelayQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/priorityBlockingQueue/PriorityBlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#392#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/blockingQueue/synchronousQueue/SynchronousQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#213#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="78" column="55" selection-start-line="76" selection-end-line="78" selection-end-column="55" />
-          <folding>
-            <element signature="e#4931#4932#0" expanded="true" />
-            <element signature="e#4970#4971#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter3/RejectionDemo/MyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter4/forkjoin/CountTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter5/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="5" selection-start-column="5" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#137#143#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter6/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter8/classp/CaptureService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter8/classp/ProduceConsumerVersion3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-461">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter5/AtomicIntegerFieldUpdaterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-end-line="34" />
-          <folding>
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter10/ThreadException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter10/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter12/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter18/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter19/concurrentHashMap/HashMapExcuteInConccrrencyEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter2/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ThreadLocalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-996">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#123#424#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter21/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter21/ParseDateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testSynchronized.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codecarver/chapter1/c8/ParseDateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="-1836">
+          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
         </state>
       </provider>
     </entry>
