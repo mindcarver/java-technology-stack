@@ -16,7 +16,7 @@ public class ArrayBlockingQueueDemo2 {
             queue.put(1);
             queue.put(2);
             queue.put(3);
-            queue.put(4);
+           // queue.put(4);  // 如果不注释，将会一直阻塞当前线程（main），除非有容量空出。
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
